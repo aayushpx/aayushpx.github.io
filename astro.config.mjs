@@ -10,6 +10,8 @@ import rehypeKatex from 'rehype-katex';
 export default defineConfig({
 	site: 'https://aayushpx.github.io',
 	integrations: [mdx(), sitemap()],
+	// the desk used to live at /desk while it was being built
+	redirects: { '/desk': '/' },
   markdown: {
     remarkPlugins: [remarkMath],
     rehypePlugins: [rehypeKatex],

@@ -20,5 +20,8 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
+# private reference photos/videos of the desk (not for the public repo)
+desk-photos/
+
 # jetbrains setting folder
 .idea/
